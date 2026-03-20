@@ -1,0 +1,6 @@
+# Request - the alert to resolve
+uint64 alert_id
+
+# Response - whether it was resolved
+bool success
+string message
