@@ -1,0 +1,9 @@
+# Request - what the caller sends
+string category
+uint8 severity
+string source
+string message
+
+# Response - what the alert system sends back
+uint64 alert_id
+bool success
